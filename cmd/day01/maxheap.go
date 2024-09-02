@@ -1,5 +1,7 @@
 package main
 
+// See https://pkg.go.dev/container/heap
+
 type Elf struct {
 	id int // The number of the elf
 	calories []int // The energy they are carrying
